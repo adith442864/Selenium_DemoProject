@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="CrossBrowserAutomationTestingSuite"
+	parallel="tests">
+	<test name="FirefoxTesting">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="https://www.selenium.dev"></parameter>
+		<classes>
+			<class name="mytestng.tests.DependsOnTests" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="ChromeTesting">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://www.selenium.dev"></parameter>
+		<classes>
+			<class name="mytestng.tests.DependsOnTests" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<!--<test name="EdgeTesting">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="url" value="https://www.selenium.dev"></parameter>
+		<classes>
+			<class name="mytestng.tests.DependsOnTests" />
+		</classes>
+	</test>  Test -->
+</suite> <!-- Suite -->
