@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mytestng.tests.SoftAssertionsExamples">
+      <class name="mytestng.tests.DoubleClickOperation">
         <methods>
-          <include name="testAssertions"/>
+          <include name="doubleClick"/>
         </methods>
-      </class> <!-- mytestng.tests.SoftAssertionsExamples -->
+      </class> <!-- mytestng.tests.DoubleClickOperation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

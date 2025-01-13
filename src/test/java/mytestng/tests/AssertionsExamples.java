@@ -1,5 +1,9 @@
 package mytestng.tests;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
@@ -15,7 +19,7 @@ public class AssertionsExamples {
 		driver.get("https://www.facebook.com");
 		String actualTitle=driver.getTitle();
 		String expectedTitle="Facebook – log in or sign up";
-		Assert.assertEquals(actualTitle, expectedTitle,"Verify expected title of the facebook login page");
+		AssertJUnit.assertEquals(actualTitle, expectedTitle,"Verify expected title of the facebook login page");
 		driver.findElement(By.xpath("//a[text()='Forgotten password?']")).click();
 		Thread.sleep(5000);
 		String actualURL=driver.getCurrentUrl();

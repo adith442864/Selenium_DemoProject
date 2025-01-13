@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-03T16:46:19 IST" name="Default suite" finished-at="2025-01-03T16:46:41 IST" duration-ms="22096">
+  <suite started-at="2025-01-13T18:31:17 IST" name="Default suite" finished-at="2025-01-13T18:31:24 IST" duration-ms="7205">
     <groups>
     </groups>
-    <test started-at="2025-01-03T16:46:19 IST" name="Default test" finished-at="2025-01-03T16:46:41 IST" duration-ms="22096">
-      <class name="mytestng.tests.AlertHandleExample">
-        <test-method signature="testHandlingAlerts()[pri:0, instance:mytestng.tests.AlertHandleExample@5ffead27]" started-at="2025-01-03T16:46:19 IST" name="testHandlingAlerts" finished-at="2025-01-03T16:46:41 IST" duration-ms="22072" status="PASS">
+    <test started-at="2025-01-13T18:31:17 IST" name="Default test" finished-at="2025-01-13T18:31:24 IST" duration-ms="7205">
+      <class name="mytestng.tests.MouseOverExample">
+        <test-method signature="dragAndDrop()[pri:0, instance:mytestng.tests.MouseOverExample@36bc55de]" started-at="2025-01-13T18:31:17 IST" name="dragAndDrop" finished-at="2025-01-13T18:31:24 IST" duration-ms="7175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHandlingAlerts -->
-      </class> <!-- mytestng.tests.AlertHandleExample -->
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- mytestng.tests.MouseOverExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

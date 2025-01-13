@@ -1,6 +1,8 @@
 package mytestng.tests;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 public class GroupsExample {
 	
